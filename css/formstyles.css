@@ -1,0 +1,53 @@
+body{
+    width: 70%;
+    background-color: ;
+    color: blue;
+}
+main{
+    width: 80%;
+    background-color: lightcyan;
+    margin: auto;
+    padding: 30px;
+    
+}
+form{
+    width: 85%;
+    margin: auto;
+    font-size: 30px;
+}
+form > label{
+    display: block;
+    margin-top: 10px;
+}
+form > button>{
+    display: block;
+    margin-top: 30px;
+    width: 60%;
+    height: 40%;
+    margin: auto;
+    font-size: 30px;
+    margin-left: 10px;
+}
+form > fieldset>input{
+    width: 85%;
+    height: 20px;
+    font-size: 30px;
+    margin-left: 50px;
+    color: red;
+
+}
+form > input{
+    width: 50%;
+    height: 20px;
+    font-size: 30px;
+    margin-left: 50px;
+    color: red;
+
+}
+form>select{
+    width: 40%;
+    height: 35px;
+    font-size: 30px;
+    margin-left: 50px;
+
+}

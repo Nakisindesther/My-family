@@ -1,0 +1,93 @@
+body{
+    background-color: lightgray;
+    color: ehite;
+    width: 80%;
+    margin: auto;
+}
+nav{
+   width: 50%;
+   margin: auto;
+    margin: top;
+    clear: both;
+}
+main{
+    width: 80%;
+    margin: auto;
+}
+article{
+   
+    width: 40%;
+    float: left;
+    margin: auto;
+
+}    
+header{
+    
+    padding: 20px;
+}
+footer{
+    border: 2px solid white;
+    clear: both;
+}
+.logodiv{
+    height: inherit;
+    width: 30%;
+    border: 2px solid white;
+    float: left;
+
+}
+.logoimg{
+    height: 60%;
+    width: 30%;
+    border: 2px solid white;
+}
+nav>ul>li{
+    list-style: none;
+    display: inline;
+}
+nav>ul>li>a{
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+nav>ul>li>a:hover{
+    background-color: blueviolet;
+    color: white;
+}
+
+.container {
+    width: 400px;  /* Adjust container width as needed */
+    margin: 0 auto;  /* Center the container horizontally */
+    padding: 20px;   /* Add some padding for visual appeal */
+    flex-direction: row;
+
+  }
+.container img{
+    margin: 10px;
+    width: 100%;
+    height: auto;
+}
+  
+  .gallery {
+    display: flex;  /* Arrange images horizontally */
+    flex-wrap: wrap;  /* Allow images to wrap to next line */
+    justify-content: space-between; /* Distribute images evenly */
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .gallery img {
+    margin: 5px;  /* Add spacing between images */
+    width: 250px;  /* Adjust image width as desired */
+    height: auto;  /* Maintain image aspect ratio */
+    border: 1px solid #ddd;  /* Add a border for better look */
+  }
+  
+  .gallery img:hover {
+    opacity: 0.8;  /* Make image slightly transparent on hover */
+    cursor: pointer;  /* Change cursor to indicate clickability */
+  }
+  
